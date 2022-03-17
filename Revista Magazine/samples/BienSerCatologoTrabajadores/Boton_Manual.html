@@ -9,9 +9,9 @@
     <style>
         button {
  position: relative;
+ justify-content: center;
  display: inline-block;
  margin: 15px;
- margin-left: 20%;
  padding: 15px 30px;
  text-align: center;
  font-size: 18px;
@@ -36,14 +36,30 @@ button:active {
  transform: scale(0.9);
 }
 
+a{
+    color: white;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
     </style>
 
 
 </head>
 <body>
 
-    <a target="_blank" href="https://terpelcol.sharepoint.com/sites/CatlogosBienser/SitePages/Gu%C3%ADa.aspx">
-        <button>Guía para <br>seleccionar regalos</button>
-    </a>
+    <div class="contenedor">
+        <a target="_blank" href="https://terpelcol.sharepoint.com/sites/CatlogosBienser/SitePages/Gu%C3%ADa.aspx">
+            <button>Guía para <br>seleccionar regalos</button>
+        </a>
+        <a target="_blank" href="https://terpelcol.sharepoint.com/sites/CatlogosBienser/SitePages/Trabajadores.aspx">
+            <button>Catálogo <br>Trabajadores</button>
+        </a>
+    </div>
+
+    
 </body>
 </html>
