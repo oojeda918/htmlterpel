@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Terpel';
+  src:  url('fonts/Terpel.eot?gsmowj');
+  src:  url('fonts/Terpel.eot?gsmowj#iefix') format('embedded-opentype'),
+    url('fonts/Terpel.ttf?gsmowj') format('truetype'),
+    url('fonts/Terpel.woff?gsmowj') format('woff'),
+    url('fonts/Terpel.svg?gsmowj#Terpel') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Terpel' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icons8-navegador-web-valiente:before {
+  content: "\e900";
+}
+.icon-icons8-id-tctil:before {
+  content: "\e901";
+}
+.icon-icons8-apple-arcade:before {
+  content: "\e902";
+}
